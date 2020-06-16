@@ -17,7 +17,7 @@ Useful Stuff
 11:15
 ==========
 cd /bin
-curl https://github.com/git/git/raw/master... -OL -k
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -OL -k
 # Demonstration of loading a file with bash commands
 source git-completion.bash
 
