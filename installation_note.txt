@@ -1,0 +1,62 @@
+Packages
+========
+
+lynx, wget, curl, rsync
+python, python3
+bzip, tar
+bash-completion
+vim, vim-common
+tmux
+git
+diffutils
+make
+gcc-c, gcc-g++, gcc-fortran
+openssh
+
+Useful Stuff
+11:15
+==========
+cd /bin
+curl https://github.com/git/git/raw/master... -OL -k
+# Demonstration of loading a file with bash commands
+source git-completion.bash
+
+# Greater than sign is not allowed in the description. Change greaterThanSign to a greater than sign.
+cd ~
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg greaterThanSign apt-cyg
+OR
+curl rawgit.com/transcode-open/apt-cyg/master/apt-cyg -OL -k
+
+install apt-cyg /bin
+apt-cyg install nano
+apt-cyg install zip
+apt-cyg install unzip
+
+nano ~/.bashrc
+# Add the following to ~/.bashrc (~/.bashrc is a settings file that runs commands every time the terminal opens)
+alias desktop="cd C:/Users/huyle/Desktop"
+alias open='cygstart'
+alias reload='source ~/.bash_profile'
+# Curly braces are not allowed in the description. Substitute the following spaces with opening and closing curly braces like the video.
+export PATH="$ HOME /bin:$ PATH "
+# Forgot to add this following line to ~/.bashrc in the video
+source /bin/git-completion.bash
+# Save and quit
+
+source ~/.bashrc
+
+Tabs and Hotkeys
+18:00
+==============
+We'll use Console2
+
+Console2:
+https://sourceforge.net/projects/cons...
+
+Integrate with Command Prompt
+24:00
+===========================
+For 64 bit, add C:\Users\huyle\Desktop\cygwin64\bin; to the end of the environment variables.
+
+Twitter: https://twitter.com/microwavesam
+Blog: http://slothparadise.com
